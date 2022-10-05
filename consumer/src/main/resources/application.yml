@@ -1,0 +1,13 @@
+server:
+  port: 8086
+
+spring:
+  kafka:
+    consumer:
+      group-id: id-food
+    bootstrap-servers: localhost:9092
+
+kafka:
+  topic:
+    accept: accept-food-order
+    exception: exception-food-order
